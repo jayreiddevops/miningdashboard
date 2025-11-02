@@ -7,7 +7,7 @@ st.set_page_config(page_title="⛏️ Mining Dashboard", layout="wide")
 # -------------------------------
 # 🔧 CONFIG
 # -------------------------------
-POOL_API = "https://api.woolypooly.com/api/v1/miner/kas/{wallet}/stats"
+POOL_API = "POOL_API = "https://api.woolypooly.com/api/v1/stats/miner/{wallet}/kas"
 COIN_PRICE_API = "https://api.coingecko.com/api/v3/simple/price?ids=kaspa&vs_currencies=usd"
 WALLET = "qrn6q4hywx4z9j4hmdp6vt4ec3a7w80akde3j26cpanz3crn89wq6rr6n2j7s"
 RIG_NAME = "vast4090"
